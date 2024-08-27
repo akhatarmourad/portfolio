@@ -9,7 +9,7 @@ export const gridItems = [
       titleClassName: "justify-end",
       img: "/b1.svg",
       spareImg: "",
-      header: true,
+      header: false,
     },
     {
       url: '/instructor-design.jpg',
