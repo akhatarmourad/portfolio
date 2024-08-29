@@ -1,4 +1,6 @@
 import { cn } from "@/lib/utils";
+import { BackgroundGradientAnimation } from "./GradientBG";
+import { GlobeDemo } from "./GridGlobe";
 
 export const BentoGrid = ({
   className,
@@ -45,12 +47,34 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input shadow-none p-4 justify-between flex flex-col space-y-4",
+        "relative row-span-1 rounded-xl group/bento hover:shadow-xl transition duration-200 shadow-input shadow-none p-4 justify-between flex flex-col space-y-4 overflow-hidden",
         className
       )}
     >
+      {/* Background Image Div */}
+      <div>
+        <div className='absolute h-full w-full right-0 top-0 opacity-80'>
+          {spareImg && (
+            <img 
+              src={spareImg}
+              alt={spareImg}
+              className='w-full h-full object-cover object-center rounded-lg'
+            />
+          )}
+        </div>
+
+        {/* Gradient BG Only for 6th Element */}
+        {id === 6 && (
+          <BackgroundGradientAnimation>
+            <div className="absolute z-50 flex items-center justify-center text-white font-bold">
+              <h2>Volunteer</h2>
+            </div>
+          </BackgroundGradientAnimation>
+        )}
+      </div>
+
       {header}
-      <div className="group-hover/bento:translate-x-2 transition duration-200">
+      <div className=" z-10 group-hover/bento:translate-x-2 transition duration-200">
         {icon}
         <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
           {title}
