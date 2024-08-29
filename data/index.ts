@@ -38,8 +38,8 @@ export const gridItems = [
     {
       url: 'https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=600',
       id: 4,
-      title: "Instructor of Graphic Design",
-      description: "Guides students in mastering Photoshop and Illustrator.",
+      title: "Programming Instructor",
+      description: "Teaches students programming concepts and languages.",
       className: "bg-gradient-to-r from-black-200 via-slate-800 to-black-200 min-h-32",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -64,7 +64,7 @@ export const gridItems = [
       id: 6,
       title: "",
       description: "",
-      className: "bg-gradient-to-r from-black-200 via-blue-950 to-black-200 border border-blue-950 min-h-40",
+      className: "bg-gradient-to-r from-black-200 via-blue-950 to-black-200 min-h-40",
       imgClassName: "",
       titleClassName: "justify-center md:max-w-full max-w-60 text-center",
       img: "",
@@ -85,35 +85,39 @@ export const gridItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
+      title: "Credit Card Fraud Detection",
       des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
       img: "./p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/adrianhajdin?tab=repositories",
+      category: "Data Science"
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
+      title: "Supermarket Products Recomendation",
       des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
       img: "./p2.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/adrianhajdin/zoom-clone",
+      category: "Web Development"
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
+      title: "Document Summarizer",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
       img: "./p3.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://github.com/adrianhajdin/ai_saas_app",
+      category: "Data Analysis"
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
+      title: "Chat with Documents",
       des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
       img: "./p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
+      category: "Graphic Design"
     },
   ];
   

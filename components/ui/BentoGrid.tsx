@@ -61,16 +61,26 @@ export const BentoGridItem = ({
               className='w-full h-full object-cover object-center rounded-lg'
             />
           )}
-        </div>
 
-        {/* Gradient BG Only for 6th Element */}
-        {id === 6 && (
-          <BackgroundGradientAnimation>
-            <div className="absolute z-50 flex items-center justify-center text-white font-bold">
-              <h2>Volunteer</h2>
-            </div>
-          </BackgroundGradientAnimation>
-        )}
+          {/* Gradient BG Only for 6th Element */}
+          {id === 6 && (
+            <BackgroundGradientAnimation>
+              <div className="absolute h-full w-full z-50 flex flex-col items-center justify-center">
+                <h2 className="text-white font-bold">Volunteer</h2>
+                <p className="text-violet-400">My commitment to social impact</p>
+                <div className='flex justify-center items-center w-full'>
+                  <a href="https://www.instagram.com/social.ensam/" target="_blank">
+                    <img src='./social.svg' alt='ID Social' className="w-16" />
+                  </a>
+                  
+                  <a href="https://www.instagram.com/caravane.alhayat/" target="_blank">
+                    <img src='./caravane.svg' alt='ID Cravane' className="w-16" />
+                  </a>
+                </div>
+              </div>
+            </BackgroundGradientAnimation>
+          )}
+        </div>
       </div>
 
       {header}

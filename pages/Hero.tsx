@@ -6,12 +6,12 @@ import { PiLinkBreakBold } from "react-icons/pi";
 
 const Hero = () => {
     return (
-        <div className='pb-20 pt-32'>
+        <div className='pb-20 pt-32 h-[100vh] mb-36'>
             {/* Spotlights */}
             <div>
-                <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 opacity-50' fill='white' />
-                <Spotlight className='top-10 left-full' fill='purple' />
-                <Spotlight className='-top-10 -right-96 opacity-35' fill='blue'  />
+                {/* <Spotlight className='-top-96 left-full md:-left-32 md:-top-20 opacity-50' fill='white' /> */}
+                <Spotlight className='-top-96 left-full' fill='purple' />
+                <Spotlight className='-top-96 -right-96 opacity-35' fill='blue'  />
             </div>
 
             {/* Grid Background */}
