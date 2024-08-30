@@ -1,6 +1,13 @@
-import { PinContainer } from "@/components/ui/3d-pin";
+import dynamic from "next/dynamic";
+const PinContainer = dynamic(
+  () => import("@/components/ui/3d-pin").then((mod) => mod.PinContainer),
+  { ssr: false }
+);
+
+// import { PinContainer } from "@/components/ui/3d-pin";
 import { projects } from "@/data";
-import { FaGithub, FaLocationArrow } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+
 
 const Projects = () => {
     return (
@@ -21,11 +28,11 @@ const Projects = () => {
                     <div key={id} className='max-h-[32rem] sm:h-[41rem] lg:min-h[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                         <PinContainer title={category} href={link}>
                             {/* Background & Image */}
-                            <div className='relative flex items-center justify-center w-[80vw] sm:w-[570px] sm:h-[40vh] h-[30vh] mb-12 overflow-hidden'>
+                            <div className='relative flex items-center justify-center w-[80vw] sm:w-[570px] sm:h-[40vh] h-[30vh] mb-12 overflow-hidden rounded-xl lg:rounded-3xl'>
                                 <div className="relative h-full w-full overflow-hidden rounded-xl lg:rounded-3xl bg-[#13162d]">
                                     <img src='./bg.png' alt='Background' />
                                 </div>
-                                <img src={img} alt={title} className="absolute z-10 bottom-0" />
+                                <img src={img} alt={title} className="absolute z-10 top-0 left-0 rounded-xl lg:rounded-3xl" />
                             </div>
 
                             {/* Title & Description */}

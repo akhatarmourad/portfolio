@@ -85,36 +85,108 @@ export const gridItems = [
   export const projects = [
     {
       id: 1,
-      title: "Credit Card Fraud Detection",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "./p1.svg",
+      title: "Real-time Weather Data ETL",
+      des: "An ETL pipeline for processing and visualizing real-time weather data using Hadoop EcoSystem tools.",
+      img: "./weather-analysis.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
       link: "https://github.com/adrianhajdin?tab=repositories",
       category: "Data Science"
     },
     {
       id: 2,
-      title: "Supermarket Products Recomendation",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "./p2.svg",
+      title: "AI-Powered Document Summarizer",
+      des: "A tool for automatic summarization of documents using Generative AI tools & latest open source LLMs.",
+      img: "./summarization.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
       link: "https://github.com/adrianhajdin/zoom-clone",
       category: "Web Development"
     },
     {
       id: 3,
-      title: "Document Summarizer",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "./p3.svg",
+      title: "Credit Card Fraud Detection",
+      des: "A machine learning based web app for real-time detection of fraudulent transactions in banking sector.",
+      img: "./credit-fraud.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
       link: "https://github.com/adrianhajdin/ai_saas_app",
       category: "Data Analysis"
     },
     {
       id: 4,
-      title: "Chat with Documents",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "./p4.svg",
+      title: "E-commerce Product Recommendation",
+      des: " A intelligent recommendation engine for personalized product suggestions & promotions in online supermarkets.",
+      img: "./recommendation.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/adrianhajdin/iphone",
+      category: "Graphic Design"
+    },
+    {
+      id: 5,
+      title: "Medical Data Analytics",
+      des: "Analyzes medical datasets to derive insights, understand trends, and inform decision-making.",
+      img: "./spss.svg",
+      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      link: "https://github.com/adrianhajdin/ai_saas_app",
+      category: "Data Analysis"
+    },
+    {
+      id: 6,
+      title: "LIB SOH & SOC Monitoring",
+      des: " An AI-driven platform for predicting the state of health and charge of lithium-ion batteries.",
+      img: "./batteries.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/adrianhajdin/iphone",
+      category: "Graphic Design"
+    },
+    {
+      id: 7,
+      title: "Full-Stack CRUD with React & Node.js",
+      des: " A CRUD application for managing student records using React and Node.js with MySQL.",
+      img: "./crud-nodejs.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/adrianhajdin/iphone",
+      category: "Graphic Design"
+    },
+    {
+      id: 8,
+      title: "Full-Stack CRUD with React & Spring",
+      des: "A CRUD application for managing employee data using React and Spring with PostgreSQL.",
+      img: "./crud-spring.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/adrianhajdin/iphone",
+      category: "Graphic Design"
+    },
+    {
+      id: 9,
+      title: "Glasses Design",
+      des: "Design for Sanali Vision that creatively promotes their eyewear collection with modern aesthetics and comfort.",
+      img: "./sanali.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/adrianhajdin/iphone",
+      category: "Graphic Design"
+    },
+    {
+      id: 10,
+      title: "Professional Event Posters",
+      des: " Design for Club Industriel Arts et Métiers that showcases events in a visually compelling and effective manner.",
+      img: "./indus.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/adrianhajdin/iphone",
+      category: "Graphic Design"
+    },
+    {
+      id: 11,
+      title: "Educational Services Promotion",
+      des: "Design for M2S Academy that promotes educational services with engaging and dynamic visuals.",
+      img: "./m2s.svg",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      link: "https://github.com/adrianhajdin/iphone",
+      category: "Graphic Design"
+    },
+    {
+      id: 12,
+      title: "Car Inspection Advertisement",
+      des: "Design for 5abir that highlights car inspection services with sophisticated and attention-grabbing visuals.",
+      img: "./5abir.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
       category: "Graphic Design"
