@@ -4,7 +4,7 @@ import { companies, testimonials } from "@/data";
 
 const Testimonials = () => {
     return (
-        <section id="#testimonials">
+        <section id="#testimonials" className="md:mt-28 mt-12">
             {/* Title */}
             <div>
                 <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
@@ -16,7 +16,7 @@ const Testimonials = () => {
             </div>
 
             {/* Clients */}
-            <div className="flex flex-col items-center md:mt-28 mt-10">
+            <div className="flex flex-col items-center md:mt-10 mt-8">
                 {/* Feedbacks */}
                 <InfiniteMovingCards
                     items={testimonials}

@@ -88,7 +88,7 @@ export const gridItems = [
       title: "Real-time Weather Data ETL",
       des: "An ETL pipeline for processing and visualizing real-time weather data using Hadoop EcoSystem tools.",
       img: "./weather-analysis.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./fm.svg"],
       link: "https://github.com/adrianhajdin?tab=repositories",
       category: "Data Science"
     },
@@ -97,7 +97,7 @@ export const gridItems = [
       title: "AI-Powered Document Summarizer",
       des: "A tool for automatic summarization of documents using Generative AI tools & latest open source LLMs.",
       img: "./summarization.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./stream.svg", "./c.svg"],
       link: "https://github.com/adrianhajdin/zoom-clone",
       category: "Web Development"
     },
@@ -106,7 +106,7 @@ export const gridItems = [
       title: "Credit Card Fraud Detection",
       des: "A machine learning based web app for real-time detection of fraudulent transactions in banking sector.",
       img: "./credit-fraud.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./c.svg"],
       link: "https://github.com/adrianhajdin/ai_saas_app",
       category: "Data Analysis"
     },
@@ -115,7 +115,7 @@ export const gridItems = [
       title: "E-commerce Product Recommendation",
       des: " A intelligent recommendation engine for personalized product suggestions & promotions in online supermarkets.",
       img: "./recommendation.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
       category: "Graphic Design"
     },
@@ -124,7 +124,7 @@ export const gridItems = [
       title: "Medical Data Analytics",
       des: "Analyzes medical datasets to derive insights, understand trends, and inform decision-making.",
       img: "./spss.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["./re.svg", "./tail.svg", "./ts.svg", "./three.svg", "./c.svg"],
       link: "https://github.com/adrianhajdin/ai_saas_app",
       category: "Data Analysis"
     },
@@ -133,7 +133,7 @@ export const gridItems = [
       title: "LIB SOH & SOC Monitoring",
       des: " An AI-driven platform for predicting the state of health and charge of lithium-ion batteries.",
       img: "./batteries.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
       category: "Graphic Design"
     },
@@ -142,7 +142,7 @@ export const gridItems = [
       title: "Full-Stack CRUD with React & Node.js",
       des: " A CRUD application for managing student records using React and Node.js with MySQL.",
       img: "./crud-nodejs.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
       category: "Graphic Design"
     },
@@ -151,7 +151,7 @@ export const gridItems = [
       title: "Full-Stack CRUD with React & Spring",
       des: "A CRUD application for managing employee data using React and Spring with PostgreSQL.",
       img: "./crud-spring.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
       category: "Graphic Design"
     },
@@ -160,7 +160,7 @@ export const gridItems = [
       title: "Glasses Design",
       des: "Design for Sanali Vision that creatively promotes their eyewear collection with modern aesthetics and comfort.",
       img: "./sanali.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
       category: "Graphic Design"
     },
@@ -169,7 +169,7 @@ export const gridItems = [
       title: "Professional Event Posters",
       des: " Design for Club Industriel Arts et Métiers that showcases events in a visually compelling and effective manner.",
       img: "./indus.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
       category: "Graphic Design"
     },
@@ -178,7 +178,7 @@ export const gridItems = [
       title: "Educational Services Promotion",
       des: "Design for M2S Academy that promotes educational services with engaging and dynamic visuals.",
       img: "./m2s.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
       category: "Graphic Design"
     },
@@ -187,7 +187,7 @@ export const gridItems = [
       title: "Car Inspection Advertisement",
       des: "Design for 5abir that highlights car inspection services with sophisticated and attention-grabbing visuals.",
       img: "./5abir.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", "./gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
       category: "Graphic Design"
     },
@@ -262,31 +262,35 @@ export const gridItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
+      title: "AI & Data Engineer",
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/digiupma.png",
+      duration: 25000
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
+      title: "Mobile Developer",
       desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+      thumbnail: "/dxc-technology.svg",
+      duration: 32000
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
+      title: "Industrial Engineer",
       desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
       className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+      thumbnail: "/huawei.svg",
+      duration: 43000
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
+      title: "Digitalization Engineer",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "/huawei.svg",
+      duration: 55000
     },
   ];
   
