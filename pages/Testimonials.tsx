@@ -1,5 +1,5 @@
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import { testimonials } from "@/data";
+import { companies, testimonials } from "@/data";
 
 
 const Testimonials = () => {
@@ -16,13 +16,24 @@ const Testimonials = () => {
             </div>
 
             {/* Clients */}
-            <div className="flex flex-col items-center">
-                <div className="h-[50vh] md:h-[30vh] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-                    <InfiniteMovingCards
-                        items={testimonials}
-                        direction="right"
-                        speed="slow"
-                    />
+            <div className="flex flex-col items-center md:mt-28 mt-10">
+                {/* Feedbacks */}
+                <InfiniteMovingCards
+                    items={testimonials}
+                    direction="right"
+                    speed="slow"
+                />
+
+                {/* Companies */}
+                <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 md:mt-16 mt-12">
+                    {
+                        companies.map(({id, name, img, nameImg}) => (
+                            <div key={id} className="flex gap-2 max-w-32 md:max-w-60">
+                                <img src={img} alt={name} className="w-5 md:w-10" />
+                                <img src={nameImg} alt={name} className="w-20 md:w-24" />
+                            </div>
+                        ))
+                    }
                 </div>
             </div>
         </section>
