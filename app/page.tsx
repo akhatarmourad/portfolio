@@ -1,5 +1,6 @@
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems } from '@/data';
+import Activities from '@/pages/Activities';
 import Contact from '@/pages/Contact';
 import Experiences from '@/pages/Experiences';
 import Grid from '@/pages/Grid';
@@ -16,10 +17,11 @@ export default function Home() {
 
         <Hero />
         <Grid />
-        <Projects />
-        <Skills />
         <Experiences />
+        <Skills />
+        <Projects />
         <Testimonials />
+        <Activities />
         <Contact />
       </div>
     </main>

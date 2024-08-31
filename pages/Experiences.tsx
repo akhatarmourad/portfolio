@@ -5,7 +5,7 @@ import { workExperience } from "@/data";
 
 const Experiences = () => {
     return (
-        <section id="#experiences">
+        <section id="#experiences" className='md:mt-28 mt-12 py-16'>
             {/* Title */}
             <div>
                 <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
@@ -30,10 +30,12 @@ const Experiences = () => {
                                 <img src={card.thumbnail} alt={card.thumbnail} className="lg:w-32 md:w-24 w-20" />
                                 <div className="lg:ms-5">
                                     <h2 className="text-start text-xl md:text-2xl">{card.title}</h2>
-                                    <p className="text-start text-white-200 text-normal mt-3">{card.desc}</p>
-                                    <hr className="my-4 border-t-2 border-salte-600" />
+                                    <p className="text-start text-slate-500 text-font-light">{card.details}</p>
+                                    <p className="text-start text-white-200 text-normal mt-4">{card.desc}</p>
+                                    <hr className="my-5 border-t-2 border-slate-600" />
                                     <p className="text-start text-slate-500 text-normal">
-                                        <span className="font-bold">Tech Stack: </span>React JS, Node JS, FastAPI, MongoDB, Material UI...
+                                        <span className="font-bold">Tech Stack: </span>
+                                        {card.tools}
                                     </p>
                                 </div>
                             </div>

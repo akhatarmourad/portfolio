@@ -11,7 +11,7 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
     return (
-        <section id="projects" className='md:mt-28 mt-12 py-20'>
+        <section id="projects" className='md:mt-28 mt-12 py-16'>
             {/* Title */}
             <div>
                 <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
