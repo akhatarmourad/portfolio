@@ -1,17 +1,6 @@
 import { GlobeDemo } from "@/components/ui/GridGlobe";
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
-import {
-  IconBrandGithub,
-  IconBrandX,
-  IconExchange,
-  IconHome,
-  IconNewSection,
-  IconTerminal2,
-  IconBrandLinkedin,
-  IconEmail,
-  IconPhoneCall
-} from "@tabler/icons-react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
