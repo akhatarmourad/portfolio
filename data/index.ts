@@ -133,7 +133,7 @@ export const gridItems = [
       title: "LIB SOH & SOC Monitoring",
       des: " An AI-driven platform for predicting the state of health and charge of lithium-ion batteries.",
       img: "./batteries.svg",
-      iconLists: ["./python.svg", "./streamlit.svg", "./excel.svg", "./matplotlib.svg", "./numpy.svg", "./pandas.svg"],
+      iconLists: ["./python.svg", "./Streamlit.svg", "./excel.svg", "./Matplotlib.svg", "./numpy.svg", "./Pandas.svg"],
       link: "https://github.com/akhatarmourad",
       category: "AI & Data Science"
     },
@@ -371,9 +371,9 @@ export const skills = [
     subtitle: "Main tools I use to bring data-driven insights to the table",
     techs: [
       {logo: "./numpy.svg", name: "Processing", style: "", subtitle: "", subtitleStyle: ""},
-      {logo: "./matplotlib.svg", name: "Visualization", style: "", subtitle: "", subtitleStyle: ""},
+      {logo: "./Matplotlib.svg", name: "Visualization", style: "", subtitle: "", subtitleStyle: ""},
       {logo: "./scikit-learn.svg", name: "Machine Learning", style: "", subtitle: "", subtitleStyle: ""},
-      {logo: "./tensorflow.svg", name: "Deep Learning", style: "", subtitle: "", subtitleStyle: ""},
+      {logo: "./Tensorflow.svg", name: "Deep Learning", style: "", subtitle: "", subtitleStyle: ""},
       {logo: "./opencv.svg", name: "Computer Vision", style: "", subtitle: "", subtitleStyle: ""},
       {logo: "./huggingface.svg", name: "GenAI - LLMs", style: "rounded-md", subtitle: "", subtitleStyle: ""},
       {logo: "./langchain.png", name: "LangChain", style: "", subtitle: "", subtitleStyle: ""},
@@ -416,7 +416,7 @@ export const skills = [
       {logo: "./nexus.png", name: "Nexus", style: "bg-white rounded-full p-1", subtitle: "", subtitleStyle: ""},
       {logo: "./github-actions.png", name: "Github Actions", style: "", subtitle: "", subtitleStyle: ""},
       {logo: "./grafana.svg", name: "Grafana", style: "", subtitle: "", subtitleStyle: ""},
-      {logo: "./prometheus.svg", name: "Prometheus", style: "", subtitle: "", subtitleStyle: ""},
+      {logo: "./Prometheus.svg", name: "Prometheus", style: "", subtitle: "", subtitleStyle: ""},
     ]
   },
   {
@@ -490,7 +490,7 @@ export const skills = [
       {logo: "./vscode.svg", name: "VS Code", style: "", subtitle: "", subtitleStyle: ""},
       {logo: "./intellij-idea.svg", name: "Intellij Idea", style: "", subtitle: "", subtitleStyle: ""},
       {logo: "./cursor.png", name: "Cursor", style: "", subtitle: "", subtitleStyle: ""},
-      {logo: "./minitab.svg", name: "Minitab", style: "rounded-md", subtitle: "", subtitleStyle: ""},
+      {logo: "./Minitab.svg", name: "Minitab", style: "rounded-md", subtitle: "", subtitleStyle: ""},
       {logo: "./spss-logo.png", name: "IBM SPSS", style: "p-1", subtitle: "", subtitleStyle: ""},
       {logo: "./rapid-miner.png", name: "Rapid Miner", style: "", subtitle: "", subtitleStyle: ""},
       {logo: "./overleaf.png", name: "LaTex", style: "", subtitle: "", subtitleStyle: ""},
