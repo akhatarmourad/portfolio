@@ -268,7 +268,7 @@ const SkeletonFive = () => {
       whileHover="animate"
       className="flex flex-1 w-full h-full min-h-[6rem] dark:bg-dot-white/[0.2] bg-dot-black/[0.2] flex-col space-y-2"
     >
-      <img src='./volunteering.jpg' className="md:rounded-xl rounded-lg" />
+      <img src='./volunteering.jpg' alt='Volunteering' className="md:rounded-xl rounded-lg" />
     </motion.div>
   );
 };
