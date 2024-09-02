@@ -1,8 +1,10 @@
+import { BentoGridThirdDemo } from "@/components/ui/ActivitiesGrid";
+
 const Activities = () => {
     return (
-        <section id="#activities">
+        <section id="#activities" className='md:mt-20 mt-8 py-16'>
             {/* Title */}
-            <div>
+            <div className="mb-12">
                 <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
                     Side Activities
                 </h2>
@@ -10,6 +12,9 @@ const Activities = () => {
                     Have a look at a variety of activities that reveal another side of Mourad&apos;s expertise and passions.
                 </p>
             </div>
+
+            {/* Activities */}
+            <BentoGridThirdDemo />
         </section>
     );
 }

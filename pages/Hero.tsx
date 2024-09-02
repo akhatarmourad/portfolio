@@ -3,13 +3,21 @@ import MagicButton from '@/components/ui/MagicButton';
 import { Spotlight } from '@/components/ui/Spotlight';
 import { TextGenerateEffect } from '@/components/ui/TextGenerateEffect';
 import { PiLinkBreakBold } from "react-icons/pi";
+import dynamic from "next/dynamic";
+const FlipWords = dynamic(
+  () => import("@/components/ui/flip-wrods").then((mod) => mod.FlipWords),
+  { ssr: false }
+);
 
 const Hero = () => {
+    
+    const roles = ["an AI & Data Science Engineer", "an Industrial Engineer", "a Graphic Designer"];
+
     return (
-        <div className='pb-20 pt-32 h-[100vh] mb-36'>
+        <div className='relative pb-20 pt-32 h-[100vh] mb-36'>
             {/* Spotlights */}
             <div>
-                {/* <Spotlight className='-top-96 left-full md:-left-32 md:-top-20 opacity-50' fill='white' /> */}
+                <Spotlight className='-top-96 left-full md:-left-32 md:-top-20 opacity-50' fill='white' />
                 <Spotlight className='-top-96 left-full' fill='purple' />
                 <Spotlight className='-top-96 -right-96 opacity-35' fill='blue'  />
             </div>
@@ -31,10 +39,12 @@ const Hero = () => {
                     />
 
                     {/* Self Intro */}
-                    <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>Hi, I&apos;m MOURAD, an AI & Data Engineer</p>
+                    <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+                        Hi, I&apos;m MOURAD, <FlipWords words={roles} />
+                    </p>
 
                     {/* GitHUB Button */}
-                    <a>
+                    <a href="https://linktr.ee/akhatarmourad" target="_blank">
                         <MagicButton title='Let&apos;s Connect Together' icon={<PiLinkBreakBold size={22} />} position='right'  />
                     </a>
                 </div>

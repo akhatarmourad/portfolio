@@ -8,6 +8,7 @@ import Hero from '@/pages/Hero';
 import Projects from '@/pages/Projects';
 import Skills from '@/pages/Skills';
 import Testimonials from '@/pages/Testimonials';
+import Thanks from '@/pages/Thanks';
 
 export default function Home() {
   return (
@@ -20,9 +21,10 @@ export default function Home() {
         <Experiences />
         <Skills />
         <Projects />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Activities />
         <Contact />
+        {/* <Thanks />  */}
       </div>
     </main>
   );

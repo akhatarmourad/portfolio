@@ -53,12 +53,12 @@ export const BentoGridItem = ({
     >
       {/* Background Image Div */}
       <div>
-        <div className='absolute h-full w-full right-0 top-0 opacity-80'>
+        <div className='absolute h-full w-full left-0 top-0 opacity-80'>
           {spareImg && (
             <img 
               src={spareImg}
               alt={spareImg}
-              className='w-full h-full object-cover object-center rounded-lg'
+              className='w-full h-full object-cover rounded-lg'
             />
           )}
 
