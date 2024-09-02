@@ -133,7 +133,7 @@ export const gridItems = [
       title: "LIB SOH & SOC Monitoring",
       des: " An AI-driven platform for predicting the state of health and charge of lithium-ion batteries.",
       img: "./batteries.svg",
-      iconLists: ["./python.svg", "./Streamlit.svg", "./excel.svg", "./Matplotlib.svg", "./numpy.svg", "./Pandas.svg"],
+      iconLists: ["./python.svg", "./streamlit.svg", "./excel.svg", "./Matplotlib.svg", "./numpy.svg", "./Pandas.svg"],
       link: "https://github.com/akhatarmourad",
       category: "AI & Data Science"
     },
@@ -339,7 +339,7 @@ export const skills = [
       {logo: "./shadcn-ui.svg", name: "Shadcn UI", style: "bg-white rounded-md", subtitle: "", subtitleStyle: ""},
       {logo: "./primereact.svg", name: "Prime React", style: ""},
       {logo: "./acternity-ui.png", name: "Acternity UI", style: "rounded-xl", subtitle: "", subtitleStyle: ""},
-      {logo: "./Streamlit.svg", name: "Streamlit", style: "", subtitle: "", subtitleStyle: ""},
+      {logo: "./streamlit.svg", name: "Streamlit", style: "", subtitle: "", subtitleStyle: ""},
     ]
   },
   {
