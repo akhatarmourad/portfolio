@@ -110,14 +110,23 @@ export const gridItems = [
       link: "https://github.com/akhatarmourad",
       category: "AI & Data Science"
     },
+    // {
+    //   id: 4,
+    //   title: "E-commerce Product Recommendation",
+    //   des: " A intelligent recommendation engine for personalized product suggestions & promotions in online supermarkets.",
+    //   img: "./recommendation.svg",
+    //   iconLists: ["./python.svg", "./react.svg", "./fastapi.svg", "./tail.svg", "./fm.svg"],
+    //   link: "https://github.com/akhatarmourad",
+    //   category: "AI & Data Science"
+    // },
     {
       id: 4,
-      title: "E-commerce Product Recommendation",
-      des: " A intelligent recommendation engine for personalized product suggestions & promotions in online supermarkets.",
-      img: "./recommendation.svg",
-      iconLists: ["./python.svg", "./react.svg", "./fastapi.svg", "./tail.svg", "./fm.svg"],
-      link: "https://github.com/akhatarmourad",
-      category: "AI & Data Science"
+      title: "Car Marketplace FullStack Web App",
+      des: "A fullstack online marketplace for buying, renting & selling cars built using React SJ, Clerck, Drizzle, Shadcn UI...",
+      img: "./car-marketplace.svg",
+      iconLists: ["./react.svg", "./neon.png", "./c.svg", "./tail.svg", "./drizzle.png"],
+      link: "https://github.com/akhatarmourad/Car-Marketplace",
+      category: "Software Development"
     },
     {
       id: 5,
@@ -436,7 +445,6 @@ export const skills = [
       {logo: "./videoscribe.png", name: "Video Scribe", style: "", subtitle: "", subtitleStyle: ""},
       {logo: "./meta.svg", name: "Facebook Ads", style: "py-1", subtitle: "", subtitleStyle: ""},
       {logo: "./google-ads.svg", name: "Google Ads", style: "", subtitle: "", subtitleStyle: ""},
-      {logo: "./postgresql.svg", name: "PostgreSQL", style: "", subtitle: "", subtitleStyle: ""},
     ]
   },
   {
