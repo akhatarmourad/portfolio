@@ -124,7 +124,7 @@ export const gridItems = [
       title: "Car Marketplace FullStack Web App",
       des: "A fullstack online marketplace for buying, renting & selling cars built using React SJ, Clerck, Drizzle, Shadcn UI...",
       img: "./car-marketplace.svg",
-      iconLists: ["./react.svg", "./neon.png", "./c.svg", "./tail.svg", "./drizzle.png"],
+      iconLists: ["./react.svg", "./neon.png", "./c.svg", "./tail.svg", "./drizzle.png", "./firebase.svg"],
       link: "https://github.com/akhatarmourad/Car-Marketplace",
       category: "Software Development"
     },
@@ -146,13 +146,22 @@ export const gridItems = [
       link: "https://github.com/akhatarmourad",
       category: "AI & Data Science"
     },
+    // {
+    //   id: 7,
+    //   title: "Full-Stack CRUD with React & Node.js",
+    //   des: " A CRUD application for managing student records using React and Node.js with MySQL.",
+    //   img: "./crud-nodejs.svg",
+    //   iconLists: ["./nodejs.svg", "./javascript.svg", "./react.svg", "./tailwind.svg", "./mysql.svg"],
+    //   link: "https://github.com/akhatarmourad",
+    //   category: "Software Development"
+    // },
     {
       id: 7,
-      title: "Full-Stack CRUD with React & Node.js",
-      des: " A CRUD application for managing student records using React and Node.js with MySQL.",
-      img: "./crud-nodejs.svg",
-      iconLists: ["./nodejs.svg", "./javascript.svg", "./react.svg", "./tailwind.svg", "./mysql.svg"],
-      link: "https://github.com/akhatarmourad",
+      title: "Modern UI & UX Next.js Portfolio",
+      des: "A next generation portfolio with an intuitive UI & UX Design built using Next.js.",
+      img: "./portfolio.svg",
+      iconLists: ["./next.svg", "./typescript.svg", "./fm.svg", "./tailwind.svg", "./acternity-ui.png"],
+      link: "https://github.com/akhatarmourad/portfolio",
       category: "Software Development"
     },
     {
@@ -506,6 +515,8 @@ export const skills = [
       {logo: "./vba.png", name: "VBA", subtitle: "", subtitleStyle: ""},
       {logo: "./c++.svg", name: "C++", subtitle: "", subtitleStyle: ""},
       {logo: "./php.svg", name: "PHP", style: "", subtitle: "", subtitleStyle: ""},
+      {logo: "./trello.svg", name: "Trello", subtitle: "", subtitleStyle: ""},
+      {logo: "./jira.svg", name: "Jira", style: "", subtitle: "", subtitleStyle: ""},
     ]
   },
   {
