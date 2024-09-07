@@ -164,13 +164,22 @@ export const gridItems = [
       link: "https://github.com/akhatarmourad/portfolio",
       category: "Software Development"
     },
+    // {
+    //   id: 8,
+    //   title: "Full-Stack CRUD with React & Spring",
+    //   des: "A CRUD application for managing employee data using React and Spring with PostgreSQL.",
+    //   img: "./crud-spring.svg",
+    //   iconLists: ["./springboot.png", "./spring-data.svg", "./react.svg", "./mui.svg", "./postgresql.svg"],
+    //   link: "https://github.com/akhatarmourad",
+    //   category: "Software Development"
+    // },
     {
       id: 8,
-      title: "Full-Stack CRUD with React & Spring",
+      title: "Commercial KPIs Dashboard",
       des: "A CRUD application for managing employee data using React and Spring with PostgreSQL.",
-      img: "./crud-spring.svg",
-      iconLists: ["./springboot.png", "./spring-data.svg", "./react.svg", "./mui.svg", "./postgresql.svg"],
-      link: "https://github.com/akhatarmourad",
+      img: "./commercial_dashboard.svg",
+      iconLists: ["./excel.svg", "./google.png", "./behance.svg", "./freepik.png"],
+      link: "https://github.com/akhatarmourad/Commercial-Services-KPIs-Excel-Dashboard",
       category: "Software Development"
     },
     {
@@ -515,7 +524,7 @@ export const skills = [
       {logo: "./vba.png", name: "VBA", subtitle: "", subtitleStyle: ""},
       {logo: "./c++.svg", name: "C++", subtitle: "", subtitleStyle: ""},
       {logo: "./php.svg", name: "PHP", style: "", subtitle: "", subtitleStyle: ""},
-      {logo: "./trello.svg", name: "Trello", subtitle: "", subtitleStyle: ""},
+      {logo: "./trello.svg", name: "Trello", style: "p-1", subtitle: "", subtitleStyle: ""},
       {logo: "./jira.svg", name: "Jira", style: "", subtitle: "", subtitleStyle: ""},
     ]
   },
