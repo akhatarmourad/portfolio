@@ -178,12 +178,21 @@ export const gridItems = [
       title: "Commercial KPIs Dashboard",
       des: "A CRUD application for managing employee data using React and Spring with PostgreSQL.",
       img: "./commercial_dashboard.svg",
-      iconLists: ["./excel.svg", "./google.png", "./behance.svg", "./freepik.png"],
+      iconLists: ["./excel.svg", "./google.png", "./behance.svg", "./freepik.png", "./photoshop.svg"],
       link: "https://github.com/akhatarmourad/Commercial-Services-KPIs-Excel-Dashboard",
       category: "Software Development"
     },
     {
       id: 9,
+      title: "Power BI Sales Dashboard",
+      des: "An interactive Power BI dashboard for visualizing and analyzing sales metrics and trends.",
+      img: "./PBI-sales-dashboard.svg",
+      iconLists: ["./powerbi.svg", "./sql-server.png", "./sql.svg", "./powerpoint.svg", "./photoshop.svg", "./git.svg"],
+      link: "https://github.com/akhatarmourad/Sales-Dashboard-Power-BI",
+      category: "Business Intelligence"
+    },
+    {
+      id: 10,
       title: "Glasses Design",
       des: "Design for Sanali Vision that creatively promotes their eyewear collection with modern aesthetics and comfort.",
       img: "./sanali.svg",
@@ -192,7 +201,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 10,
+      id: 11,
       title: "Professional Event Posters",
       des: " Design for Club Industriel Arts et Métiers that showcases events in a visually compelling and effective manner.",
       img: "./indus.svg",
@@ -201,7 +210,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 11,
+      id: 12,
       title: "Educational Services Promotion",
       des: "Design for M2S Academy that promotes educational services with engaging and dynamic visuals.",
       img: "./m2s.svg",
@@ -210,7 +219,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 12,
+      id: 13,
       title: "Car Inspection Advertisement",
       des: "Design for 5abir that highlights car inspection services with sophisticated and attention-grabbing visuals.",
       img: "./5abir.svg",
