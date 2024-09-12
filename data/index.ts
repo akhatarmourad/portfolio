@@ -164,6 +164,15 @@ export const gridItems = [
       link: "https://github.com/akhatarmourad/portfolio",
       category: "Software Development"
     },
+    {
+      id: 8,
+      title: "HR Excel Dashboard",
+      des: "An advanced Excel dashsboard for HR department, built using excel, power pivot, pivot tables...",
+      img: "./hr-excel-dashboard.svg",
+      iconLists: ["./excel.svg", "./git.svg", "./behance.svg", "./flaticon.png", "./photoshop.svg"],
+      link: "https://github.com/akhatarmourad/HR-Excel-Dashboard",
+      category: "Business Intelligence"
+    },
     // {
     //   id: 8,
     //   title: "Full-Stack CRUD with React & Spring",
@@ -174,16 +183,16 @@ export const gridItems = [
     //   category: "Software Development"
     // },
     {
-      id: 8,
+      id: 9,
       title: "Commercial KPIs Dashboard",
-      des: "A CRUD application for managing employee data using React and Spring with PostgreSQL.",
+      des: "An MS Excel dashboard for visualizing commerial insights, metrics & key measures.",
       img: "./commercial_dashboard.svg",
       iconLists: ["./excel.svg", "./google.png", "./behance.svg", "./freepik.png", "./photoshop.svg"],
       link: "https://github.com/akhatarmourad/Commercial-Services-KPIs-Excel-Dashboard",
-      category: "Software Development"
+      category: "Business Intelligence"
     },
     {
-      id: 9,
+      id: 10,
       title: "Power BI Sales Dashboard",
       des: "An interactive Power BI dashboard for visualizing and analyzing sales metrics and trends.",
       img: "./PBI-sales-dashboard.svg",
@@ -192,7 +201,7 @@ export const gridItems = [
       category: "Business Intelligence"
     },
     {
-      id: 10,
+      id: 11,
       title: "Glasses Design",
       des: "Design for Sanali Vision that creatively promotes their eyewear collection with modern aesthetics and comfort.",
       img: "./sanali.svg",
@@ -201,7 +210,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 11,
+      id: 12,
       title: "Professional Event Posters",
       des: " Design for Club Industriel Arts et Métiers that showcases events in a visually compelling and effective manner.",
       img: "./indus.svg",
@@ -210,7 +219,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 12,
+      id: 13,
       title: "Educational Services Promotion",
       des: "Design for M2S Academy that promotes educational services with engaging and dynamic visuals.",
       img: "./m2s.svg",
@@ -219,7 +228,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 13,
+      id: 14,
       title: "Car Inspection Advertisement",
       des: "Design for 5abir that highlights car inspection services with sophisticated and attention-grabbing visuals.",
       img: "./5abir.svg",
