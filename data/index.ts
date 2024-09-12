@@ -168,7 +168,7 @@ export const gridItems = [
       id: 8,
       title: "HR Excel Dashboard",
       des: "An advanced Excel dashsboard for HR department, built using excel, power pivot, pivot tables...",
-      img: "./hr-excel-dashboard.svg",
+      img: "./HR-Excel-Dashboard.svg",
       iconLists: ["./excel.svg", "./git.svg", "./behance.svg", "./flaticon.png", "./photoshop.svg"],
       link: "https://github.com/akhatarmourad/HR-Excel-Dashboard",
       category: "Business Intelligence"
@@ -322,7 +322,7 @@ export const gridItems = [
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "./dxc-technology.svg",
       duration: 32000,
-      details: "Specialization Internship, July - September 023",
+      details: "Specialization Internship, July - September 2023",
       tools: "React Native, Node JS, Tailwind CSS, MongoDB, RESTful APIs, Android Studio, Adobe xd..."
     },
     {
