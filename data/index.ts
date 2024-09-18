@@ -182,8 +182,18 @@ export const gridItems = [
     //   link: "https://github.com/akhatarmourad",
     //   category: "Software Development"
     // },
+    
     {
       id: 9,
+      title: "SaaS Landing Page",
+      des: "A modern landing age for SaaS products & services, Next Gen UI & UX Design and fully responsive;",
+      img: "./portfolio-landing-page.svg",
+      iconLists: ["./next.svg", "./typescript.svg", "./fm.svg", "./tailwind.svg", "./acternity-ui.png"],
+      link: "https://akhatarmourad.vercel.app/",
+      category: "Software Development"
+    },
+    {
+      id: 10,
       title: "Commercial KPIs Dashboard",
       des: "An MS Excel dashboard for visualizing commerial insights, metrics & key measures.",
       img: "./commercial_dashboard.svg",
@@ -192,7 +202,7 @@ export const gridItems = [
       category: "Business Intelligence"
     },
     {
-      id: 10,
+      id: 11,
       title: "Power BI Sales Dashboard",
       des: "An interactive Power BI dashboard for visualizing and analyzing sales metrics and trends.",
       img: "./PBI-sales-dashboard.svg",
@@ -201,7 +211,7 @@ export const gridItems = [
       category: "Business Intelligence"
     },
     {
-      id: 11,
+      id: 12,
       title: "Glasses Design",
       des: "Design for Sanali Vision that creatively promotes their eyewear collection with modern aesthetics and comfort.",
       img: "./sanali.svg",
@@ -210,7 +220,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 12,
+      id: 13,
       title: "Professional Event Posters",
       des: " Design for Club Industriel Arts et Métiers that showcases events in a visually compelling and effective manner.",
       img: "./indus.svg",
@@ -219,7 +229,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 13,
+      id: 14,
       title: "Educational Services Promotion",
       des: "Design for M2S Academy that promotes educational services with engaging and dynamic visuals.",
       img: "./m2s.svg",
@@ -228,7 +238,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 14,
+      id: 15,
       title: "Car Inspection Advertisement",
       des: "Design for 5abir that highlights car inspection services with sophisticated and attention-grabbing visuals.",
       img: "./5abir.svg",
