@@ -243,7 +243,43 @@ export const gridItems = [
       des: "Design for 5abir that highlights car inspection services with sophisticated and attention-grabbing visuals.",
       img: "./5abir.svg",
       iconLists: ["./photoshop.svg", "./illustrator.svg", "./pinterest.svg", "./behance.svg", "./freepik.png"],
-      link: "https://github.com/akhatarmourad/Graphic-Design",
+      link: "https://www.instagram.com/devdescom",
+      category: "Graphic Design"
+    },
+    {
+      id: 16,
+      title: "Ramadan Event Design",
+      des: "An expressive design collection to gather essential Ramadan aids for the Club Social ENSAM Meknes event.",
+      img: "./Ramadan.svg",
+      iconLists: ["./photoshop.svg", "./illustrator.svg", "./pinterest.svg", "./behance.svg", "./freepik.png"],
+      link: "https://www.instagram.com/devdescom",
+      category: "Graphic Design"
+    },
+    {
+      id: 17,
+      title: "Charity Actions Design",
+      des: "A visually engaging design promoting charity campaigns for Al Amal Association of HECF Business School.",
+      img: "./Amal.svg",
+      iconLists: ["./photoshop.svg", "./illustrator.svg", "./pinterest.svg", "./behance.svg", "./freepik.png"],
+      link: "https://www.instagram.com/devdescom",
+      category: "Graphic Design"
+    },
+    {
+      id: 18,
+      title: "Health Products & Services",
+      des: "A professional design promoting training in health fields and cleaning products for Afak School.",
+      img: "./Health.svg",
+      iconLists: ["./photoshop.svg", "./illustrator.svg", "./pinterest.svg", "./behance.svg", "./freepik.png"],
+      link: "https://www.instagram.com/devdescom",
+      category: "Graphic Design"
+    },
+    {
+      id: 19,
+      title: "Training Advertisement",
+      des: "An impactful design promoting specialized training programs across different sectors to attract maximum clients.",
+      img: "./Formations.svg",
+      iconLists: ["./photoshop.svg", "./illustrator.svg", "./pinterest.svg", "./behance.svg", "./freepik.png"],
+      link: "https://www.instagram.com/devdescom",
       category: "Graphic Design"
     },
   ];
