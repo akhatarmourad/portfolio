@@ -203,6 +203,15 @@ export const gridItems = [
     },
     {
       id: 11,
+      title: "Spotify Clone",
+      des: "A responsive Spotify UI/UX, rebuilt and redesigned with React and Tailwind CSS.",
+      img: "./Spotify.svg",
+      iconLists: ["./react.svg", "./javascript.svg", "./react-router.png", "./tailwind.svg", "./figma.svg"],
+      link: "https://github.com/akhatarmourad/Spotify-Clone-Tailwind-React",
+      category: "Software Development"
+    },
+    {
+      id: 12,
       title: "Power BI Sales Dashboard",
       des: "An interactive Power BI dashboard for visualizing and analyzing sales metrics and trends.",
       img: "./PBI-sales-dashboard.svg",
@@ -211,7 +220,7 @@ export const gridItems = [
       category: "Business Intelligence"
     },
     {
-      id: 12,
+      id: 13,
       title: "Glasses Design",
       des: "Design for Sanali Vision that creatively promotes their eyewear collection with modern aesthetics and comfort.",
       img: "./sanali.svg",
@@ -220,7 +229,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 13,
+      id: 14,
       title: "Professional Event Posters",
       des: " Design for Club Industriel Arts et Métiers that showcases events in a visually compelling and effective manner.",
       img: "./indus.svg",
@@ -229,7 +238,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 14,
+      id: 15,
       title: "Educational Services Promotion",
       des: "Design for M2S Academy that promotes educational services with engaging and dynamic visuals.",
       img: "./m2s.svg",
@@ -238,7 +247,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 15,
+      id: 16,
       title: "Car Inspection Advertisement",
       des: "Design for 5abir that highlights car inspection services with sophisticated and attention-grabbing visuals.",
       img: "./5abir.svg",
@@ -247,7 +256,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 16,
+      id: 17,
       title: "Ramadan Event Design",
       des: "An expressive design collection to gather essential Ramadan aids for the Club Social ENSAM Meknes event.",
       img: "./Ramadan.svg",
@@ -256,7 +265,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 17,
+      id: 18,
       title: "Charity Actions Design",
       des: "A visually engaging design promoting charity campaigns for Al Amal Association of HECF Business School.",
       img: "./Amal.svg",
@@ -265,7 +274,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 18,
+      id: 19,
       title: "Health Products & Services",
       des: "A professional design promoting training in health fields and cleaning products for Afak School.",
       img: "./Health.svg",
@@ -274,7 +283,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 19,
+      id: 20,
       title: "Training Advertisement",
       des: "An impactful design promoting specialized training programs across different sectors to attract maximum clients.",
       img: "./Formations.svg",
