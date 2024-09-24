@@ -224,7 +224,7 @@ export const gridItems = [
       title: "Youtube Clone",
       des: "Responsive YouTube clone built with React, RapidAPI, and MUI, featuring a modern UI/UX, deployed on Vercel.",
       img: "./Youtube.svg",
-      iconLists: ["./react.svg", "./javascript.png", "./muisvg", "./rapidapi.png", "./vercel.svg", "./git.svg"],
+      iconLists: ["./react.svg", "./javascript.svg", "./mui.svg", "./rapidapi.png", "./vercel.png", "./git.svg"],
       link: "https://github.com/akhatarmourad/Youtube-Clone",
       category: "Software Development"
     },
