@@ -17,9 +17,9 @@ const Hero = () => {
         <div className='relative pb-20 pt-32 h-[100vh] mb-36'>
             {/* Spotlights */}
             <div>
-                <Spotlight className='-top-96 left-56 md:-left-32 md:-top-20 opacity-50' fill='white' />
+                <Spotlight className='-top-96 left-1/3 md:-left-32 md:-top-20 opacity-50' fill='white' />
                 <Spotlight className='top-72 left-full' fill='purple' />
-                <Spotlight className='top-72 right-72 opacity-35' fill='blue'  />
+                <Spotlight className='top-60 right-72 opacity-35' fill='blue'  />
             </div>
 
             {/* Grid Background */}
