@@ -1,6 +1,6 @@
 export const gridItems = [
     {
-      url: './ai-data.jpg',
+      url: './ai-data-img.jpg',
       id: 1,
       title: "AI & Data Engineer",
       description: "Building Data Pipelines & Data-Driven Solutions.",
@@ -12,7 +12,7 @@ export const gridItems = [
       header: true,
     },
     {
-      url: './instructor-design.jpg',
+      url: './instructor-design-img.jpg',
       id: 2,
       title: "Graphic Designer",
       description: "I work as a Freelancer and Teacher in Graphic Design.",
