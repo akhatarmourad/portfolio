@@ -110,17 +110,17 @@ export const gridItems = [
       link: "https://github.com/akhatarmourad",
       category: "AI & Data Science"
     },
-    // {
-    //   id: 4,
-    //   title: "E-commerce Product Recommendation",
-    //   des: " A intelligent recommendation engine for personalized product suggestions & promotions in online supermarkets.",
-    //   img: "./recommendation.svg",
-    //   iconLists: ["./python.svg", "./react.svg", "./fastapi.svg", "./tail.svg", "./fm.svg"],
-    //   link: "https://github.com/akhatarmourad",
-    //   category: "AI & Data Science"
-    // },
     {
       id: 4,
+      title: "React Native InDrive Clone",
+      des: " A Cross-Platform mobile app for booking rides, similar to Uber and InDrive, developed with React Native.",
+      img: "./uber.svg",
+      iconLists: ["./react.svg", "./expo.png", "./stripe.svg", "./tailwind.svg", "./neon.png", "./figma.svg"],
+      link: "https://github.com/akhatarmourad/Uber-React-Native",
+      category: "Software Development"
+    },
+    {
+      id: 5,
       title: "Car Marketplace FullStack Web App",
       des: "A fullstack online marketplace for buying, renting & selling cars built using React SJ, Clerck, Drizzle, Shadcn UI...",
       img: "./car-marketplace.svg",
@@ -129,7 +129,7 @@ export const gridItems = [
       category: "Software Development"
     },
     {
-      id: 5,
+      id: 6,
       title: "Medical Data Analytics",
       des: "Analyzes medical datasets to derive insights, understand trends, and inform decision-making.",
       img: "./spss.svg",
@@ -138,7 +138,7 @@ export const gridItems = [
       category: "Data Analysis"
     },
     {
-      id: 6,
+      id: 7,
       title: "LIB SOH & SOC Monitoring",
       des: " An AI-driven platform for predicting the state of health and charge of lithium-ion batteries.",
       img: "./batteries.svg",
@@ -156,7 +156,7 @@ export const gridItems = [
     //   category: "Software Development"
     // },
     {
-      id: 7,
+      id: 8,
       title: "Modern UI & UX Next.js Portfolio",
       des: "A next generation portfolio with an intuitive UI & UX Design built using Next.js.",
       img: "./portfolio.svg",
@@ -165,7 +165,7 @@ export const gridItems = [
       category: "Software Development"
     },
     {
-      id: 8,
+      id: 9,
       title: "HR Excel Dashboard",
       des: "An advanced Excel dashsboard for HR department, built using excel, power pivot, pivot tables...",
       img: "./HR-Excel-Dashboard.svg",
@@ -184,16 +184,25 @@ export const gridItems = [
     // },
     
     {
-      id: 9,
+      id: 10,
       title: "SaaS Landing Page",
-      des: "A modern landing age for SaaS products & services, Next Gen UI & UX Design and fully responsive;",
+      des: "A modern landing age for SaaS products & services, Next Gen UI & UX Design and fully responsive.",
       img: "./portfolio-landing-page.svg",
       iconLists: ["./next.svg", "./typescript.svg", "./fm.svg", "./tailwind.svg", "./acternity-ui.png"],
       link: "https://akhatarmourad.vercel.app/",
       category: "Software Development"
     },
     {
-      id: 10,
+      id: 11,
+      title: "AI BG Remover",
+      des: "An AI background remover with React.js, Gemini and Clerk for auth for precise, clean image isolation.",
+      img: "./bg-remover.svg",
+      iconLists: ["./react.svg", "./react-router.png", "./javascript.svg", "./tailwind.svg", "./mongodb.svg", "./vercel.png", "./nodejs.svg"],
+      link: "https://github.com/akhatarmourad/BG-Remover",
+      category: "Software Development"
+    },
+    {
+      id: 12,
       title: "Commercial KPIs Dashboard",
       des: "An MS Excel dashboard for visualizing commerial insights, metrics & key measures.",
       img: "./commercial_dashboard.svg",
@@ -202,7 +211,7 @@ export const gridItems = [
       category: "Business Intelligence"
     },
     {
-      id: 11,
+      id: 13,
       title: "Spotify Clone",
       des: "A responsive Spotify UI/UX, rebuilt and redesigned with React and Tailwind CSS.",
       img: "./Spotify.svg",
@@ -211,7 +220,7 @@ export const gridItems = [
       category: "Software Development"
     },
     {
-      id: 12,
+      id: 14,
       title: "Power BI Sales Dashboard",
       des: "An interactive Power BI dashboard for visualizing and analyzing sales metrics and trends.",
       img: "./PBI-sales-dashboard.svg",
@@ -220,7 +229,7 @@ export const gridItems = [
       category: "Business Intelligence"
     },
     {
-      id: 13,
+      id: 15,
       title: "Youtube Clone",
       des: "Responsive YouTube clone built with React, RapidAPI, and MUI, featuring a modern UI/UX, deployed on Netlify.",
       img: "./Youtube.svg",
@@ -229,7 +238,7 @@ export const gridItems = [
       category: "Software Development"
     },
     {
-      id: 14,
+      id: 16,
       title: "Glasses Design",
       des: "Design for Sanali Vision that creatively promotes their eyewear collection with modern aesthetics and comfort.",
       img: "./sanali.svg",
@@ -238,7 +247,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 15,
+      id: 17,
       title: "Professional Event Posters",
       des: " Design for Club Industriel Arts et Métiers that showcases events in a visually compelling and effective manner.",
       img: "./indus.svg",
@@ -247,7 +256,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 16,
+      id: 18,
       title: "Educational Services Promotion",
       des: "Design for M2S Academy that promotes educational services with engaging and dynamic visuals.",
       img: "./m2s.svg",
@@ -256,7 +265,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 17,
+      id: 19,
       title: "Car Inspection Advertisement",
       des: "Design for 5abir that highlights car inspection services with sophisticated and attention-grabbing visuals.",
       img: "./5abir.svg",
@@ -265,7 +274,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 18,
+      id: 20,
       title: "Ramadan Event Design",
       des: "An expressive design collection to gather essential Ramadan aids for the Club Social ENSAM Meknes event.",
       img: "./Ramadan.svg",
@@ -274,7 +283,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 19,
+      id: 21,
       title: "Charity Actions Design",
       des: "A visually engaging design promoting charity campaigns for Al Amal Association of HECF Business School.",
       img: "./Amal.svg",
@@ -283,7 +292,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 20,
+      id: 22,
       title: "Health Products & Services",
       des: "A professional design promoting training in health fields and cleaning products for Afak School.",
       img: "./Health.svg",
@@ -292,7 +301,7 @@ export const gridItems = [
       category: "Graphic Design"
     },
     {
-      id: 21,
+      id: 23,
       title: "Training Advertisement",
       des: "An impactful design promoting specialized training programs across different sectors to attract maximum clients.",
       img: "./Formations.svg",

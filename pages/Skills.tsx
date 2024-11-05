@@ -30,12 +30,12 @@ const Skills = () => {
                                             key={id} 
                                             className={`flex items-center justify-center gap-2 px-2 py-2 border border-slate-500 rounded-xl`}
                                         >
-                                            {logo && (<img src={logo} alt={name} className={`${style} h-8`} />)}
-                                            <p className="text-slate-500 text-light">{name}</p>
+                                            {logo && (<img src={logo} alt={name} className={`${style} h-6 md:h-8`} />)}
+                                            <p className="text-slate-500 text-light text-sm md:text-[15px]">{name}</p>
                                             {subtitle && (
                                                 <div className="flex items-center gap-2">
                                                     <FaArrowRight className="text-slate-500" />
-                                                    <p className={`text-light text-transparent bg-clip-text ${subtitleStyle}`}>{subtitle}</p>
+                                                    <p className={`text-light text-sm md:text-[15px] text-transparent bg-clip-text ${subtitleStyle}`}>{subtitle}</p>
                                                 </div>
                                             )}
                                         </div>
